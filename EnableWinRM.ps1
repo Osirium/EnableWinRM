@@ -54,7 +54,7 @@
 
 Param (
     [string]$SubjectName = $env:COMPUTERNAME,
-    [int]$CertValidityDays = 1095,
+    [int]$CertValidityDays = 3650,
     [switch]$SkipNetworkProfileCheck,
     $CreateSelfSignedCert = $true,
     [switch]$ForceNewSSLCert,
